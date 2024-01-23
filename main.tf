@@ -54,5 +54,5 @@ module "jump-host" {
   vpc                         = module.gcp_networking.vpc_self_link
   gke_subnet_name             = module.gcp_networking.subnet_self_link
   vm_image                    = var.vm_image
-  pritunlfile                 = var.pritunlfile
+  # pritunlfile                 = var.pritunlfile
 }

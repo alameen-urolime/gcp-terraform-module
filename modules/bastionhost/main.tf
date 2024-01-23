@@ -3,7 +3,7 @@ resource "google_compute_instance" "private_vm" {
   machine_type = var.jump-machine 
   zone         = var.zone
   tags         = ["private-vm"]
-  metadata_startup_script = var.pritunlfile
+  # metadata_startup_script = var.pritunlfile
 
   boot_disk {
     initialize_params{

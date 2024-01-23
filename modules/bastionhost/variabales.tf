@@ -26,6 +26,6 @@ variable "gke_subnet_name" {
   type = string
 }
 
-variable "pritunlfile" {
-  type = string
-}
+# variable "pritunlfile" {
+#   type = string
+# }

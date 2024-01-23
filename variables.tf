@@ -158,6 +158,6 @@ variable "vm_image" {
   type = string
 }
 
-variable "pritunlfile" {
-  type = string
-}
+# variable "pritunlfile" {
+#   type = string
+# }
